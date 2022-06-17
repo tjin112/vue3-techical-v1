@@ -4,6 +4,7 @@ const { resolve } = require("path");
 console.log(__dirname);
 // https://vitejs.dev/config/
 export default defineConfig({
+  base:'/vue3-techical-v1/',
   plugins: [vue()],
   resolve: {
     alias: {
